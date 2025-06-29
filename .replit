@@ -1,0 +1,4 @@
+run = ["bash", "-c", "export PYTHONNOUSERSITE= && python -m bot.main"]
+
+[env]
+PYTHONNOUSERSITE = ""
